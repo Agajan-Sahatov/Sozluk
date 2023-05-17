@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="" />
+		<meta name="author" content="" />
+		<title>Sözlük.com</title>
+		<link
+			href="include/icons/ico.png"
+			rel="shortcut icon"
+			type="image/x-icon" />
+		<link rel="stylesheet" href="include/style/head.css" />
+		<link rel="stylesheet" href="include/style/main.css" />
+		<link rel="stylesheet" href="include/style/bottom.css" />
+	</head>
+
+	<body>
+		<div class="header">
+			<li><img src="include/icons/logo.png" id="logo" /></li>
+		</div>
+
+		<div id="form_field">
+			<div id="header"><li id="text_header">Sözlük</li></div>
+			<form method="" action="">
+				<div id="first_lang_field">
+					<label for="first_lang" id="lbl_first_lang">Häzirki dil:</label><br />
+					<select
+						name="first_lang"
+						size="1"
+						id="first_lang"
+						class="select_langs">
+						<option selected="SELECTED">Türkmençe</option>
+						<option>English</option>
+					</select>
+					<li id="indicator_to_right">></li>
+				</div>
+				<div id="second_lang_field">
+					<label for="second_lang" id="lbl_second_lang"
+						>Terjime etmeli dil:</label
+					><br />
+					<select
+						name="second_lang"
+						size="1"
+						id="second_lang"
+						class="select_langs">
+						<option selected="SELECTED">English</option>
+						<option>Türkmençe</option>
+					</select>
+				</div>
+				<li>
+					<label for="text_field" id="lbl_text">Türkmençe :</label>
+					<input
+						type="text"
+						id="text_field"
+						placeholder="Şu ýere tekstiňizi ýazyň" />
+				</li>
+				<div id="controller" style="display: none">
+					<img src="include/icons/left_triangle.png" id="left_triangle_icon" />
+					<img src="include/icons/info_icon.png" id="controller_icon" />
+					<li id="controller_text">
+						Şu ýere terjime etmeli tekstiňizi ýazyň! Ýazanyňyzda dürs ýazuw
+						düzgünlerini berjaý etmegiňizi sizden haýyşt edýäris!
+					</li>
+				</div>
+				<input type="submit" id="btn_translate" value="Terjime et" />
+			</form>
+			<li id="translated_header">English :</li>
+			<div id="translated_text_field">- - -</div>
+		</div>
+
+		<div class="bottom">
+			<li id="c_icon">©</li>
+			<li id="bottom_rights">2020 &nbsp;Ähli hukuklar goralan</li>
+			<li class="bottom_links"><a href="">Biz hakynda</a></li>
+			<li class="bottom_links"><a href="">Biziň düzgünlerimiz</a></li>
+			<li class="bottom_links"><a href="">Kömek</a></li>
+			<br />
+		</div>
+
+		<script src="include/js/objects.js"></script>
+		<script src="include/js/sozluk.js"></script>
+	</body>
+</html>

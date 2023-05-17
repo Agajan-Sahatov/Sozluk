@@ -1,0 +1,42 @@
+.bottom{
+	width: 100%;
+	min-height: 1.3cm;
+	line-height: 1.4cm;
+	color: #242424;
+	font-family: Segoe UI Semilight;
+	text-align: center;
+	float: left;
+	/*text-shadow: 5px 10px 10px green;*/
+	background-color: #dedede;
+	position: absolute;
+	top: 93%;
+	height: 7%;
+	position: fixed;
+	z-index: 3;
+}
+#c_icon{
+	font-size: 20px;
+	display: inline;
+	background: none;
+	font-family: Segoe UI Light;
+}
+#bottom_rights{
+	font-size: 20px;
+	display: inline;
+	background: none;
+}
+.bottom_links{
+	font-size: 20px;
+	display: inline;
+	background: none;
+	margin-left: 1cm;
+}
+.bottom_links a{
+	text-decoration: none;
+	color: #242424;
+}
+.bottom_links a:hover{
+	text-decoration: underline;
+	cursor: pointer;
+	color: #454545;
+}

@@ -1,0 +1,27 @@
+.header{
+	padding: 0px;
+	margin-top: -2cm;
+	position: fixed;
+	z-index: 1;
+	width: 98%;
+	padding-left: 2%;
+	height: 1.5cm;
+	line-height: 1.5cm;
+	margin-bottom: 0px;
+	background-color: #1faeff;  /*  008aee*/ 
+	color: #ffffff;
+	font-size: 20px;
+	font-family: Segoe UI Semilight;
+}
+.header #logo{
+	float: left;
+	padding: 0px;
+	width: 2cm;
+	height: 1.5cm;
+	border-radius: 50%;
+	margin-left: 0.5cm;
+	-webkit-transition: margin-left 0.5s;
+	-moz-transition: margin-left 0.5s;
+	transition: margin-left 0.5s;
+	cursor: pointer;
+}
